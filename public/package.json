@@ -1,0 +1,28 @@
+{
+  "name": "eventxstudio",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build:css": "postcss src/index.css -o public/tailwind.css",
+    "watch:css": "postcss src/index.css -o public/tailwind.css --watch"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.12",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
+  }
+}
+
